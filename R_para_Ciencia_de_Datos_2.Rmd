@@ -1,0 +1,64 @@
+---
+title: "R para Ciencia de Datos"
+subtitle: "La importancia para Administradores Públicos y Politólogos de saber Ciencia de Datos"
+author: "Macarena Valenzuela Beltrán"
+institute: "Administración Pública y Ciencia Política - UdeC"
+date: "2020/05/26 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+---
+
+background-image: url(https://media.giphy.com/media/R6xi8dXsRhIjK/giphy.gif)
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+Image credit: [giphy.com](https://giphy.com/gifs/writing-R6xi8dXsRhIjK/links)
+
+```{r}
+install.packages("devtools")
+library(devtools)
+devtools::install_github('emitanaka/anicon')
+
+install.packages("Rtools")
+
+
+devtools::anicon
+
+
+
+```
+
+
+---
+# ¿Qué es hacer Ciencia de Datos?
+***
+La ciencia de datos incluye un proceso que se divide en tres etapas: importar/limpiar, comprender y comunicar
+***
+
+![](C:/Users/trist/Desktop/R_para_Ciencia_de_Datos/proceso_ciencia_datos.jpg)
+
+---
+#Qué involucra
+
+
+---
+.row.bg-main1[.content[
+<br>
+Gracias **Emi Tanaka** 
+```{r echo=FALSE, eval=TRUE}
+anicon::faa('twitter', animate='float', rtext='@statsgen')
+anicon::faa('github', animate='float', rtext='emitanaka')
+```
+<br>
+<br>
+Gracias **Alison Hill** 
+```{r echo=FALSE, eval=TRUE}
+anicon::faa('twitter', animate='float', rtext='@apreshill')
+anicon::faa('github', animate='float', rtext='@apreshill')
+```
+]]
+
+---
